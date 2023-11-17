@@ -178,6 +178,7 @@
                         "date" : {}
                     }
                 },
+                "workflow" : {},
                 "entity" : {},
                 "package" : {}
             }
