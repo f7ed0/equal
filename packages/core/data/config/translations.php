@@ -60,6 +60,7 @@ else {
         !file_exists(QN_BASEDIR."/packages/{$pkg}/classes/{$path}.class.php") 
         && !file_exists(QN_BASEDIR."/packages/{$pkg}/actions/{$path}.php") 
         && !file_exists(QN_BASEDIR."/packages/{$pkg}/data/{$path}.php")
+        && !file_exists(QN_BASEDIR."/packages/{$pkg}/views/{$path}.json")
     ) {
         throw new Exception("unknown_entity", QN_ERROR_INVALID_PARAM);
     }
